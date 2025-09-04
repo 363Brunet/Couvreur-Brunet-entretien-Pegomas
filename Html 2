@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couvreur Brunet Entretien Pégomas - Rénovation de toiture</title>
+    <style>
+        /* Styles CSS pour le design */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5DC; /* Beige */
+            color: #333;
+        }
+        header {
+            background-color: #8B4513; /* Brun */
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #D2B48C; /* Marron clair */
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #F5DEB3;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .section {
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            background-color: #D2B48C;
+        }
+        .cta-button {
+            background-color: #8B4513;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            display: inline-block;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .image-gallery img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        /* Media Queries pour le responsive */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .image-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Couvreur Brunet Entretien Pégomas</h1>
+        <p>Expert en rénovation et entretien de toitures</p>
+    </header>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#a-propos">À Propos</a>
+        <a href="#services">Services</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="accueil" class="section">
+            <div class="hero">
+                <h2>Votre spécialiste de la toiture à Pégomas</h2>
+                <p>Depuis plus de 10 ans, nous sommes à votre service pour tous vos projets de rénovation de maison. De la réparation au traitement, nous assurons la longévité de votre toiture.</p>
+                <a href="#contact" class="cta-button">Demandez un devis gratuit</a>
+            </div>
+        </section>
+
+        <section id="a-propos" class="section">
+            <h2>À Propos de Nous</h2>
+            <p><strong>Couvreur Brunet Entretien Pégomas</strong>, c'est l'expérience et le savoir-faire au service de votre toiture. Forts de 8 ans d'expérience, nous sommes spécialisés dans les travaux de couverture, d'étanchéité et de maçonnerie. Notre équipe d'experts est passionnée par son métier et s'engage à vous offrir un travail de qualité, à la hauteur de vos attentes.</p>
+            <h3>Nos valeurs</h3>
+            <ul>
+                <li><strong>Qualité :</strong> Utilisation de matériaux durables et techniques éprouvées.</li>
+                <li><strong>Fiabilité :</strong> Respect des délais et des engagements.</li>
+                <li><strong>Conseil :</strong> Accompagnement personnalisé pour chaque projet.</li>
+            </ul>
+        </section>
+
+        <section id="services" class="section">
+            <h2>Nos Services</h2>
+            <p>Nous proposons une gamme complète de services pour l'entretien et la rénovation de votre toiture.</p>
+            <div class="service-item">
+                <h3>Couverture & Rénovation</h3>
+                <p>Que ce soit pour une réparation, une rénovation complète ou la pose d'une nouvelle toiture, nous vous garantissons un travail soigné et durable.</p>
+            </div>
+            <div class="service-item">
+                <h3>Nettoyage & Traitement</h3>
+                <p>Éliminez mousses, lichens et salissures qui abîment votre toiture. Nous utilisons un traitement hydrofuge pour protéger vos tuiles contre l'humidité et les intempéries.</p>
+                <img src="https://i.ibb.co/689Lq9k/image.png" alt="Nettoyage de toiture" style="width:100%; max-width:600px; height:auto;">
+            </div>
+            <div class="service-item">
+                <h3>Étanchéité & Maçonnerie</h3>
+                <p>Nous assurons l'étanchéité de votre toiture et réalisons tous travaux de maçonnerie pour garantir la solidité de votre structure.</p>
+            </div>
+            <div class="service-item">
+                <h3>Peinture</h3>
+                <p>Pour une finition parfaite, nous réalisons des travaux de peinture sur les éléments de toiture et de façade.</p>
+            </div>
+        </section>
+
+        <section id="galerie" class="section">
+            <h2>Nos réalisations : Avant/Après</h2>
+            <p>Découvrez la qualité de notre travail à travers ces exemples de rénovation de toitures.</p>
+            <div class="image-gallery">
+                <img src="https://i.ibb.co/x7Y3JmP/image.png" alt="Nettoyage de toiture avant/après 1">
+                <img src="https://i.ibb.co/3W83sH3/image.png" alt="Nettoyage de toiture avant/après 2">
+                <img src="https://i.ibb.co/X8jD6rB/image.png" alt="Nettoyage de toiture avant/après 3">
+                <img src="https://i.ibb.co/Jz5272L/image.png" alt="Nettoyage de toiture avant/après 4">
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contactez-nous</h2>
+            <p>Pour un devis gratuit ou toute question, n'hésitez pas à nous contacter. Nous serons ravis de vous conseiller.</p>
+            <p><strong>Téléphone :</strong> 06 99 00 48 36</p>
+            <p><strong>Email :</strong> brunetentretien23@gmail.com</p>
+            <p><strong>Adresse :</strong> 647 Chem. de Cabrol, 06580 Pégomas</p>
+            <form action="#" method="post">
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" required><br><br>
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Envoyer">
+            </form>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.4162445831517!2d6.941655615690804!3d43.64969247912255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd9b7a4c4b9d5%3A0xc49d0e1b21a8d11c!2s647%20Chem.%20de%20Cabrol%2C%2006580%20P%C3%A9gomas!5e0!3m2!1sfr!2sfr!4v1694247594958!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Couvreur Brunet Entretien Pégomas. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
